@@ -252,7 +252,7 @@ sourceSets {
 }
 
 if (!project.enableTests.toBoolean()) {
-    sourceSets.remove(sourceSets.test)
+    //sourceSets.remove(sourceSets.test)
 }
 
 tasks.named('jar', Jar).configure {
